@@ -1,5 +1,5 @@
 # SA2-MultiDevice-Application
-##Tasked 
+## Tasked 
 to create a single-page web application, comprised of a responsive front-end written in HTML/CSS and a small back-end created using Node.js. It is up to you what your application will be. 
 
 For example, it could be a storefront, a practical utility, or an interactive experience. But, you should discuss your idea with your tutor before you start to ensure it is within the scope of the brief.
