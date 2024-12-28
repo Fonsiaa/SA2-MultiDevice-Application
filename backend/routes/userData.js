@@ -1,7 +1,7 @@
 import express from 'express';
 import User from '../models/userModel.js';
 
-export const router = express.Router();
+const router = express.Router();
 
 router.post ('/', async (req, res) => {
     const { name, email, password } = req.body;
@@ -27,3 +27,5 @@ router.post('/login', async (req, res) => {
         res.status(400).json({ message: err.message });
     }
 })
+
+export default router;
