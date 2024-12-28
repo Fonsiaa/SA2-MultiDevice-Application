@@ -19,8 +19,7 @@ return (
 
             <ul className={isOpen ? 'open' : ''}>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/Log">LogIn</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+                <li><Link to="/Log">Login</Link></li>
             </ul>
             
         </nav>

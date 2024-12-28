@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './story.jsx' // Import the App component
+import {App} from './app.jsx'
 
 // Create the root element
 createRoot(document.getElementById('root')).render(

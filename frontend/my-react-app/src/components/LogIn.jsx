@@ -1,6 +1,7 @@
 import React from 'react';
+import '../style/login.scss' 
 
-export const LoginIn = () => {
+export const Login = () => {
   return (
     <div className="login">
       <h2>Login</h2>
