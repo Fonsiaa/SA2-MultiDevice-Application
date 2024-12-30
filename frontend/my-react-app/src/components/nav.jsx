@@ -10,18 +10,17 @@ export const Navbar = () => {
     };
 
 return (
-    <nav>
-        <div className={`ham_nav ${isOpen ? 'open' : ''}`} onClick={handleToggle}>
-            <div className={`Line ${isOpen ? 'Line' : ''}`}></div>
-            <div className={`Line ${isOpen ? 'Line' : ''}`}></div>
-            <div className={`Line ${isOpen ? 'Line' : ''}`}></div>
-        </div>
+        <nav>
+            <div className={`ham_nav ${isOpen ? 'open' : ''}`} onClick={handleToggle}>
+                <div className={`Line ${isOpen ? 'Line' : ''}`}></div>
+                <div className={`Line ${isOpen ? 'Line' : ''}`}></div>
+                <div className={`Line ${isOpen ? 'Line' : ''}`}></div>
+            </div>
 
             <ul className={isOpen ? 'open' : ''}>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/Log">Login</Link></li>
+                <li><Link to="/Login">Login</Link></li>
             </ul>
-            
         </nav>
     );
 };

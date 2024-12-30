@@ -1,0 +1,27 @@
+body {
+    background-color: #9fc4ff;
+}
+
+* {
+    margin: 2px;
+}
+
+.story {
+    background: linear-gradient(to bottom, #9fc4ff, #69aaff);
+    padding: 20px 0 20px 0;
+    text-align: center;
+
+    .text {
+        font-size: 20px;
+    }
+}
+
+//for large mobile
+@media only screen and (max-width:425px) {
+    
+}
+
+//for tablet
+@media only screen and (max-width:768px) {
+    
+}

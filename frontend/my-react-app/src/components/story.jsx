@@ -6,7 +6,6 @@ export const Story = () => {
 
     const TheStory = [
         {
-            title: '',
             // the title or the cover page of the website
             content: (
                 <div>
