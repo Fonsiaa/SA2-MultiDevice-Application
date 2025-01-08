@@ -30,7 +30,7 @@ export const Login = () => {
               <input type="text" id="pass" placeholder="Password" />
             </label>
 
-            <button className='btn' type="submit">Sign In</button>
+            <button className='btn' type="submit">Login</button>
           </form>
 
           {/*If the user has forgotten their password*/}

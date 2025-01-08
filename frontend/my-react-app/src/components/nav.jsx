@@ -20,6 +20,7 @@ return (
             <ul className={isOpen ? 'open' : ''}>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/Login">Login</Link></li>
+                <li><Link to="/Signin">SignIn</Link></li>
             </ul>
         </nav>
     );
