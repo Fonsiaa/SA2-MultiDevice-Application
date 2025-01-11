@@ -17,10 +17,12 @@ return (
                 <div className={`Line ${isOpen ? 'Line' : ''}`}></div>
             </div>
 
+            <div className="title"> Story Time </div>
+
             <ul className={isOpen ? 'open' : ''}>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/Login">Login</Link></li>
-                <li><Link to="/Signin">SignIn</Link></li>
+                <li><Link to="/SignIn">Sign In</Link></li>
             </ul>
         </nav>
     );

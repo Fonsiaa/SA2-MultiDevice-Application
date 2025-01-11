@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/signin.scss'
 
-export const SignIn = () => {
+export const Signin = () => {
     return (
         <div className="row login_page"> 
         {/* the left side of the login page, includes questions and short tagline */}

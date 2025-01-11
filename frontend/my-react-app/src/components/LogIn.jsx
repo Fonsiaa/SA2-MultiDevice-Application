@@ -7,7 +7,7 @@ export const Login = () => {
     {/* the left side of the login page, includes questions and short tagline */}
         <div className="question column">
           <h1>Did You Enjoyed the Story?</h1>
-          <p>Subscribe for more in the future!</p>
+          <p>Stay tone for Upcoming Stories!</p>
           <img src="" alt="" />
         </div>
 
@@ -16,9 +16,11 @@ export const Login = () => {
           <div className="profile_pic">
             <img src="https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_1280.png" alt="profile icon" />
           </div>
+
           <div className="sign_up">
             Don't have an account? <a href="#">Sign Up</a>
           </div>
+
           <form action="" method="post">
             {/*The input fields for the username*/}
             <label for="login" className='login'>

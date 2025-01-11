@@ -10,9 +10,69 @@ body {
     background: linear-gradient(to bottom, #9fc4ff, #69aaff);
     padding: 20px 0 20px 0;
     text-align: center;
+    height: 70vh;
+    margin: 0;
 
     .text {
         font-size: 20px;
+    }
+
+    .btn {
+        text-align: center;
+        justify-content: center;
+        display: inline-flex;
+        transform: translate(0%,65vh);
+
+        button {
+            border-radius: 10%;
+            font-size: 15px;
+            margin: 0 10px;
+            padding: 5px 10px;
+            border: none;
+            background-color: rgb(10, 36, 90);
+            color: white;
+        }
+    }
+}
+
+section {
+    height: 100vh;
+    padding: 0 clamp(4rem, 12vw, 20rem);
+    display: grid;
+    place-content: center;
+
+    p {
+        font-size: clamp(2rem, 5vw, 8rem);
+    }
+
+    &:nth-of-type(1) {
+        border-bottom: 1px solid black;
+    }
+
+    &:nth-of-type(3) {
+        background: #ffff00;
+    }
+
+    &:nth-of-type(4) {
+        background: rgb(29, 29, 29);
+        color: white;
+    }
+}
+
+.dotstyle-scaleup{
+a{
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+    &:hover, &:focus {
+        background-color: #fff;
+    }
+}
+
+li{
+    &.is-current a{
+        background-color: #fff;
+        transform: scale(1.5);
+        }
     }
 }
 
