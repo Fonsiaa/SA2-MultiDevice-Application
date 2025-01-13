@@ -1,0 +1,12 @@
+footer {
+    background-color: white;
+    color: rgb(10, 36, 90);
+    position: fixed;
+    height: 5vh;
+    transform: translate(0%,7vh);
+    border-radius: 5px;
+
+    .content {
+        text-align: center;
+    }
+}
