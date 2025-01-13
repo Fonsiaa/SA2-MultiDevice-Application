@@ -1,0 +1,47 @@
+body {
+  background-color: #9fc4ff;
+}
+
+* {
+  margin: 2px;
+}
+
+.story {
+  background: linear-gradient(to bottom, #9fc4ff, #69aaff);
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+.story .text {
+  font-size: 20px;
+}
+
+section {
+  height: 100vh;
+  padding: 0 clamp(4rem, 12vw, 20rem);
+  display: grid;
+  place-content: center;
+}
+section p {
+  font-size: clamp(2rem, 5vw, 8rem);
+}
+section:nth-of-type(1) {
+  border-bottom: 1px solid black;
+}
+section:nth-of-type(3) {
+  background: #ffff00;
+}
+section:nth-of-type(4) {
+  background: rgb(29, 29, 29);
+  color: white;
+}
+
+.dotstyle-scaleup a {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.dotstyle-scaleup a:hover, .dotstyle-scaleup a:focus {
+  background-color: #fff;
+}
+.dotstyle-scaleup li.is-current a {
+  background-color: #fff;
+  transform: scale(1.5);
+}/*# sourceMappingURL=story.css.map */
