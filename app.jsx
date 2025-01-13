@@ -13,8 +13,6 @@ import { Signin } from "./components/signin.jsx";
 //footer
 import { Footer } from "./components/footer.jsx";
 
-
-
 // Main Story component
 export const App = () => {
   return (
@@ -26,8 +24,9 @@ export const App = () => {
           <Route path="/Login" element={<Login />} />
           <Route path="/SignIn" element={<Signin />} />
         </Routes>
-        <Footer/>
       </Router>
+
+      <Footer/>
     </>
   )
 }
